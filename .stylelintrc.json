@@ -1,0 +1,14 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "custom-property-no-missing-var-function": true,
+    "media-feature-range-notation": "prefix",
+    "no-descending-specificity": null,
+    "length-zero-no-unit": [
+      true,
+      {
+        "ignore": ["custom-properties"]
+      }
+    ]
+  }
+}
